@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: c128a4a1532f175439108f86274b1ccc
+timeCreated: 1491356138
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: (4)was.hitSprite_0
+    21300002: (4)was.hitSprite_1
+    21300004: (4)was.hitSprite_2
+    21300006: (4)was.hitSprite_3
+    21300008: (4)was.hitSprite_4
+    21300010: (4)was.hitSprite_5
+    21300012: (4)was.hitSprite_6
+    21300014: (4)was.hitSprite_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: (4)was.hitSprite_0
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1673
+        width: 629
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: (4)was.hitSprite_1
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1636
+        width: 631
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: (4)was.hitSprite_2
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1621
+        width: 633
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: (4)was.hitSprite_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 871
+        width: 632
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: (4)was.hitSprite_4
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 867
+        width: 633
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: (4)was.hitSprite_5
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 871
+        width: 633
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: (4)was.hitSprite_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 125
+        width: 630
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: (4)was.hitSprite_7
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 125
+        width: 633
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
