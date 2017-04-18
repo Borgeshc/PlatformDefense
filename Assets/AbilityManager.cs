@@ -27,7 +27,7 @@ public class AbilityManager : MonoBehaviour
 
     IEnumerator GlobalCooldown()
     {
-        yield return new WaitForSeconds(.05f);
+        yield return new WaitForSeconds(.04f);
         antiVirus = false;
         quarentine = false;
         firewall = false;

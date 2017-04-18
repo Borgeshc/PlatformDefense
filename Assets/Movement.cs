@@ -6,6 +6,8 @@ public class Movement : MonoBehaviour
     public float minSpeed;
     public float maxSpeed;
 
+    public bool isBomb;
+
     [HideInInspector]
     public float speed;
     GameObject player;
@@ -23,7 +25,8 @@ public class Movement : MonoBehaviour
         if(transform.position.z - player.transform.position.z > 7)
         {
             anim.SetBool("IsMoving", true);
-            transform.Translate(-transform.forward * speed * Time.deltaTime);
+            // transform.Translate(-transform.forward * speed * Time.deltaTime);
+            transform.position = transform.position + speed * Time.deltaTime * transform.forward;
         }
         else
         {
@@ -39,7 +42,11 @@ public class Movement : MonoBehaviour
 
     IEnumerator Attack()
     {
+        if (isBomb)
+            GetComponent<Health>().TookDamage(100);
+
         anim.SetBool("IsAttacking", true);
+        player.GetComponent<Health>().TookDamage(5);
         yield return new WaitForSeconds(1);
         anim.SetBool("IsAttacking", false);
         attacking = false;

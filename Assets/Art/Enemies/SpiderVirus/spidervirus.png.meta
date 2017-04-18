@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: bd9aa07a168c3b241ac5c965f2694116
+timeCreated: 1492554651
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spidervirus_0
+    21300002: spidervirus_1
+    21300004: spidervirus_2
+    21300006: spidervirus_3
+    21300008: spidervirus_4
+    21300010: spidervirus_5
+    21300012: spidervirus_6
+    21300014: spidervirus_7
+    21300016: spidervirus_8
+    21300018: spidervirus_9
+    21300020: spidervirus_10
+    21300022: spidervirus_11
+    21300024: spidervirus_12
+    21300026: spidervirus_13
+    21300028: spidervirus_14
+    21300030: spidervirus_15
+    21300032: spidervirus_16
+    21300034: spidervirus_17
+    21300036: spidervirus_18
+    21300038: spidervirus_19
+    21300040: spidervirus_20
+    21300042: spidervirus_21
+    21300044: spidervirus_22
+    21300046: spidervirus_23
+    21300048: spidervirus_24
+    21300050: spidervirus_25
+    21300052: spidervirus_26
+    21300054: spidervirus_27
+    21300056: spidervirus_28
+    21300058: spidervirus_29
+    21300060: spidervirus_30
+    21300062: spidervirus_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spidervirus_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2551
+        width: 693
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_1
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 2547
+        width: 737
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_2
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 2551
+        width: 722
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_3
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 2769
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_4
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2788
+        width: 53
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_5
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 2796
+        width: 65
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_6
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2548
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2009
+        width: 683
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_8
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 2009
+        width: 602
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_9
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 2008
+        width: 544
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_10
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 2164
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_11
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 2167
+        width: 194
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_12
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 2167
+        width: 74
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1523
+        width: 680
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_14
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1729
+        width: 49
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_15
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1834
+        width: 99
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_16
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1721
+        width: 118
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_17
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1725
+        width: 160
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_18
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 1704
+        width: 95
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_19
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 1707
+        width: 41
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_20
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 1810
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_21
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 1697
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_22
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1687
+        width: 94
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_23
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1518
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1072
+        width: 542
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_25
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 1231
+        width: 94
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_26
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 1327
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_27
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 1239
+        width: 117
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_28
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 1248
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_29
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 609
+        width: 650
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_30
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 744
+        width: 155
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spidervirus_31
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 762
+        width: 94
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

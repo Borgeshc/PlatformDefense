@@ -9,13 +9,14 @@ public class AbilityCast : MonoBehaviour
 
     public GameObject antivirusSpawn;
     public GameObject quarentineSpawn;
+    public LayerMask layerMask;
 
     RaycastHit hit;
     bool casting;
 
     void Update()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 500))
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 500, layerMask))
         {
             if(hit.transform.tag.Equals("Enemy") && !casting)
             {
@@ -23,14 +24,16 @@ public class AbilityCast : MonoBehaviour
                 if(AbilityManager.antiVirus)
                 {
                     print("Casting Anti Virus");
-                    GameObject clone = Instantiate(antivirus, antivirusSpawn.transform.position, Quaternion.identity) as GameObject;
+                    GameObject clone = Instantiate(antivirus, antivirusSpawn.transform.localPosition, antivirusSpawn.transform.rotation) as GameObject;
+                    clone.transform.position = antivirusSpawn.transform.position + transform.forward * 2;
                     clone.GetComponent<Projectile>().target = hit.transform.gameObject;
 
                 }
                 if(AbilityManager.quarentine)
                 {
                     print("Casting Quarentine");
-                    GameObject clone2 = Instantiate(quarentine, quarentineSpawn.transform.position, Quaternion.identity) as GameObject;
+                    GameObject clone2 = Instantiate(quarentine, quarentineSpawn.transform.localPosition, quarentineSpawn.transform.rotation) as GameObject;
+                    clone2.transform.position = quarentineSpawn.transform.position + transform.forward * 2;
                     clone2.GetComponent<Projectile>().target = hit.transform.gameObject;
                 }
                 StartCoroutine(GlobalCooldown());
@@ -50,7 +53,7 @@ public class AbilityCast : MonoBehaviour
 
     IEnumerator GlobalCooldown()
     {
-        yield return new WaitForSeconds(.05f);
+        yield return new WaitForSeconds(.03f);
         casting = false;
     }
 }

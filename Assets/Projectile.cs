@@ -9,12 +9,18 @@ public class Projectile : MonoBehaviour
     public bool isQuarentine;
     public int damage;
 
+    void Start()
+    {
+        Destroy(gameObject, 5);
+    }
+
     void Update()
     {
         if(target != null)
         {
             transform.LookAt(target.transform);
-            transform.Translate(transform.forward * speed * Time.deltaTime);
+            transform.position = transform.position + speed * Time.deltaTime * transform.forward;
+            //transform.Translate(transform.forward * speed * Time.deltaTime);
         }
     }
 
@@ -26,6 +32,7 @@ public class Projectile : MonoBehaviour
             {
                 GameObject clone = Instantiate(frozen, other.transform.position, Quaternion.identity)as GameObject;
                 clone.transform.SetParent(other.transform);
+                other.GetComponent<Health>().frozen.Add(clone);
                 other.GetComponent<Movement>().speed -= other.GetComponent<Movement>().speed * .25f;
                 other.GetComponent<Health>().TookDamage(15);
 
@@ -33,7 +40,7 @@ public class Projectile : MonoBehaviour
             }
             else
             {
-                other.GetComponent<Health>().TookDamage(25);
+                other.GetComponent<Health>().TookDamage(50);
                 Destroy(gameObject);
             }
         }

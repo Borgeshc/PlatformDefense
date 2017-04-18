@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 37d22ef8aeb65254e90155d7675d9fd6
+timeCreated: 1492554573
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bomb virus sprite sheet_0
+    21300002: bomb virus sprite sheet_1
+    21300004: bomb virus sprite sheet_2
+    21300006: bomb virus sprite sheet_3
+    21300008: bomb virus sprite sheet_4
+    21300010: bomb virus sprite sheet_5
+    21300012: bomb virus sprite sheet_6
+    21300014: bomb virus sprite sheet_7
+    21300016: bomb virus sprite sheet_8
+    21300018: bomb virus sprite sheet_9
+    21300020: bomb virus sprite sheet_10
+    21300022: bomb virus sprite sheet_11
+    21300024: bomb virus sprite sheet_12
+    21300026: bomb virus sprite sheet_13
+    21300028: bomb virus sprite sheet_14
+    21300030: bomb virus sprite sheet_15
+    21300032: bomb virus sprite sheet_16
+    21300034: bomb virus sprite sheet_17
+    21300036: bomb virus sprite sheet_18
+    21300038: bomb virus sprite sheet_19
+    21300040: bomb virus sprite sheet_20
+    21300042: bomb virus sprite sheet_21
+    21300044: bomb virus sprite sheet_22
+    21300046: bomb virus sprite sheet_23
+    21300048: bomb virus sprite sheet_24
+    21300050: bomb virus sprite sheet_25
+    21300052: bomb virus sprite sheet_26
+    21300054: bomb virus sprite sheet_27
+    21300056: bomb virus sprite sheet_28
+    21300058: bomb virus sprite sheet_29
+    21300060: bomb virus sprite sheet_30
+    21300062: bomb virus sprite sheet_31
+    21300064: bomb virus sprite sheet_32
+    21300066: bomb virus sprite sheet_33
+    21300068: bomb virus sprite sheet_34
+    21300070: bomb virus sprite sheet_35
+    21300072: bomb virus sprite sheet_36
+    21300074: bomb virus sprite sheet_37
+    21300076: bomb virus sprite sheet_38
+    21300078: bomb virus sprite sheet_39
+    21300080: bomb virus sprite sheet_40
+    21300082: bomb virus sprite sheet_41
+    21300084: bomb virus sprite sheet_42
+    21300086: bomb virus sprite sheet_43
+    21300088: bomb virus sprite sheet_44
+    21300090: bomb virus sprite sheet_45
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 4075
+        width: 395
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 4075
+        width: 391
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 4121
+        width: 174
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 4139
+        width: 97
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 4117
+        width: 28
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 4128
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 3798
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 3622
+        width: 380
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3647
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 3471
+        width: 399
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 3647
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 3471
+        width: 395
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 3521
+        width: 147
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 3314
+        width: 367
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 3504
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 3473
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 3468
+        width: 101
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2756
+        width: 395
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 2756
+        width: 396
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2756
+        width: 396
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 2794
+        width: 124
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 2785
+        width: 96
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2776
+        width: 107
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 2760
+        width: 167
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2109
+        width: 395
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 2109
+        width: 412
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2328
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2364
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 2187
+        width: 101
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 2109
+        width: 114
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 2089
+        width: 387
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 2089
+        width: 387
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 2194
+        width: 94
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 2238
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 2144
+        width: 127
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1168
+        width: 399
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1168
+        width: 356
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1183
+        width: 319
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1106
+        width: 520
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 1087
+        width: 589
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_40
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 1087
+        width: 642
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 554
+        width: 147
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_42
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 564
+        width: 269
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_43
+      rect:
+        serializedVersion: 2
+        x: 3541
+        y: 595
+        width: 106
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 568
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bomb virus sprite sheet_45
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 531
+        width: 132
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

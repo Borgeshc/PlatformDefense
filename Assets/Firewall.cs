@@ -11,7 +11,12 @@ public class Firewall : MonoBehaviour
     {
         if(other.tag == "Enemy")
         {
-            other.GetComponent<Health>().TookDamage(50);
+            if(other.GetComponent<Movement>().isBomb)
+            {
+                other.GetComponent<Health>().TookDamage(100);
+            }
+            else
+            other.GetComponent<OnFire>().Burn();
         }
     }
 }
