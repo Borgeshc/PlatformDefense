@@ -25,7 +25,6 @@ public class Movement : MonoBehaviour
         if(transform.position.z - player.transform.position.z > 7)
         {
             anim.SetBool("IsMoving", true);
-            // transform.Translate(-transform.forward * speed * Time.deltaTime);
             transform.position = transform.position + speed * Time.deltaTime * transform.forward;
         }
         else

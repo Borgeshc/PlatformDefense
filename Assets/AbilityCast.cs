@@ -23,7 +23,6 @@ public class AbilityCast : MonoBehaviour
                 casting = true;
                 if(AbilityManager.antiVirus)
                 {
-                    print("Casting Anti Virus");
                     GameObject clone = Instantiate(antivirus, antivirusSpawn.transform.localPosition, antivirusSpawn.transform.rotation) as GameObject;
                     clone.transform.position = antivirusSpawn.transform.position + transform.forward * 2;
                     clone.GetComponent<Projectile>().target = hit.transform.gameObject;
@@ -31,7 +30,6 @@ public class AbilityCast : MonoBehaviour
                 }
                 if(AbilityManager.quarentine)
                 {
-                    print("Casting Quarentine");
                     GameObject clone2 = Instantiate(quarentine, quarentineSpawn.transform.localPosition, quarentineSpawn.transform.rotation) as GameObject;
                     clone2.transform.position = quarentineSpawn.transform.position + transform.forward * 2;
                     clone2.GetComponent<Projectile>().target = hit.transform.gameObject;
@@ -43,7 +41,6 @@ public class AbilityCast : MonoBehaviour
                 casting = true;
                 if (AbilityManager.firewall)
                 {
-                    print("Casting FireWall");
                     Instantiate(firewall, hit.point + Vector3.up * 2, Quaternion.identity);
                 }
                 StartCoroutine(GlobalCooldown());

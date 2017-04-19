@@ -20,7 +20,6 @@ public class Projectile : MonoBehaviour
         {
             transform.LookAt(target.transform);
             transform.position = transform.position + speed * Time.deltaTime * transform.forward;
-            //transform.Translate(transform.forward * speed * Time.deltaTime);
         }
     }
 

@@ -44,8 +44,8 @@ public class Health : MonoBehaviour
             }
             else if (transform.tag != "Enemy" && health <= baseHealth * .1f)
             {
-                //SECURE LOCK ACTIVATE!!!
                 secureLockExplosion.SetActive(true);
+                secured = true;
             }
         }
     }
