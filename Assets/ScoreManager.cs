@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public Text killCounter;
-    int kills;
+    public static int kills;
 
     public void Killed()
     {

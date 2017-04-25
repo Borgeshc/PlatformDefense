@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -46,6 +47,7 @@ public class Health : MonoBehaviour
             {
                 secureLockExplosion.SetActive(true);
                 secured = true;
+                StartCoroutine(WaitForSceneLoad());
             }
         }
     }
@@ -79,5 +81,12 @@ public class Health : MonoBehaviour
         yield return new WaitForSeconds(.5f);
         anim.SetBool("WasHit", false);
         hitEffect = false;
+    }
+
+    IEnumerator WaitForSceneLoad()
+    {
+        yield return new WaitForSeconds(5);
+        PlayerPrefs.SetInt("Score", ScoreManager.kills);
+        SceneManager.LoadScene("GameOver");
     }
 }
