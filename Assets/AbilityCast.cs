@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class AbilityCast : MonoBehaviour
 {
@@ -11,11 +12,34 @@ public class AbilityCast : MonoBehaviour
     public GameObject quarentineSpawn;
     public LayerMask layerMask;
 
+    public GameObject reticleHolder;
+    public Image reticleImage; 
+    bool isSelecting;
+
+
     RaycastHit hit;
     bool casting;
 
     void Update()
     {
+        if (Application.loadedLevel == 0)
+        {
+            if (Physics.Raycast(transform.position, transform.forward, out hit, 500))
+            {
+                if (hit.transform.tag == "LookHere")
+                {
+                    if (!isSelecting)
+                        StartCoroutine(Selecting());
+
+                    reticleHolder.SetActive(true);
+                }
+            }
+            else
+            {
+                ResetFill();
+                reticleHolder.SetActive(false);
+            }
+        } 
         if (Physics.Raycast(transform.position, transform.forward, out hit, 500, layerMask))
         {
             if(hit.transform.tag.Equals("Enemy") && !casting)
@@ -53,4 +77,20 @@ public class AbilityCast : MonoBehaviour
         yield return new WaitForSeconds(.03f);
         casting = false;
     }
+
+    IEnumerator Selecting()
+    {
+        isSelecting = true;
+        while (reticleImage.fillAmount < 1)
+        {
+            reticleImage.fillAmount += .01f;
+            yield return new WaitForSeconds(.01f);
+        }
+        isSelecting = false;
+    }
+
+    void ResetFill()
+    { 
+       reticleImage.fillAmount = 0f;
+    } 
 }
