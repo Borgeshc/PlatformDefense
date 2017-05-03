@@ -25,13 +25,14 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Enemy")
+        if(other.tag == "Enemy" || other.tag == "TutorialEnemy1" || other.tag == "TutorialEnemy2")
         {
             if(isQuarentine)
             {
                 GameObject clone = Instantiate(frozen, other.transform.position, Quaternion.identity)as GameObject;
                 clone.transform.SetParent(other.transform);
                 other.GetComponent<Health>().frozen.Add(clone);
+                if(other.GetComponent<Movement>() != null)
                 other.GetComponent<Movement>().speed -= other.GetComponent<Movement>().speed * .25f;
                 other.GetComponent<Health>().TookDamage(15);
 

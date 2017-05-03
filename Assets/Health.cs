@@ -12,6 +12,7 @@ public class Health : MonoBehaviour
     public List<GameObject> frozen;
     public bool hasHitEffect;
     public GameObject secureLockExplosion;
+    Tutorial tutorial;
 
     Animator anim;
     public float health;
@@ -21,6 +22,10 @@ public class Health : MonoBehaviour
 
     void Start()
     {
+        if(transform.tag == "TutorialEnemy1" || transform.tag == "TutorialEnemy2" || transform.tag == "TutorialEnemy3")
+        {
+           tutorial = GameObject.Find("Player").GetComponent<Tutorial>();
+        }
         health = baseHealth;
         scoreManager = GameObject.Find("GameManager").GetComponent<ScoreManager>();
         anim = GetComponent<Animator>();
@@ -43,11 +48,22 @@ public class Health : MonoBehaviour
             {
                 StartCoroutine(Died());
             }
-            else if (transform.tag != "Enemy" && health <= baseHealth * .1f)
+            else if (transform.tag == "Player" && health <= baseHealth * .1f)
             {
                 secureLockExplosion.SetActive(true);
                 secured = true;
                 StartCoroutine(WaitForSceneLoad());
+            }
+            else if(transform.tag == "TutorialEnemy1" && health <= 0)
+            {
+                print("enemy 1 died");
+                StartCoroutine(tutorial.Enemy1Died());
+                StartCoroutine(Died());
+            }
+            else if (transform.tag == "TutorialEnemy2" && health <= 0)
+            {
+                StartCoroutine(tutorial.Enemy2Died());
+                StartCoroutine(Died());
             }
         }
     }
@@ -57,7 +73,7 @@ public class Health : MonoBehaviour
         if(!dying)
         {
             dying = true;
-            if (transform.tag == "Enemy")
+            if (transform.tag == "Enemy" || transform.tag == "TutorialEnemy1" || transform.tag == "TutorialEnemy2")
             {
                 if(frozen != null)
                 {
@@ -66,6 +82,7 @@ public class Health : MonoBehaviour
                         frozen[i].SetActive(false);
                     }
                 }
+                if(scoreManager !=  null)
                 scoreManager.Killed();
 
                 anim.SetBool("HasDied", true);

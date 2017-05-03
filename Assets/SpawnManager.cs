@@ -27,7 +27,7 @@ public class SpawnManager : MonoBehaviour
         if(playerHealth.health > playerHealth.health * .8f)
         {
             Instantiate(enemies[Random.Range(0, enemies.Length)], spawnpoints[Random.Range(0, spawnpoints.Length)].transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(4);
         }
         else if (playerHealth.health > playerHealth.health * .5f)
         {
